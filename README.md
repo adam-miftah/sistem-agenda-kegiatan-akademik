@@ -1,59 +1,123 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📅 SI-AGENDA - Sistem Informasi Agenda Kegiatan Akademik
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Selamat datang di **SI-AGENDA**! Solusi digital modern untuk mempermudah penjadwalan, pengelolaan, dan pelaporan kegiatan akademik di lingkungan **Universitas Pamulang**. Proyek ini hadir untuk menggantikan pencatatan agenda manual menjadi sistem terpusat yang rapi, transparan, dan mudah diakses.
 
-## About Laravel
+[![Versi Proyek](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)](https://github.com/adammiftah/si-agenda)
+[![Framework Digunakan](https://img.shields.io/badge/Framework-Laravel_10-FF2D20?style=for-the-badge&logo=laravel)](https://laravel.com)
+[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.2-777BB4?style=for-the-badge&logo=php)](https://www.php.net/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Mengapa SI-AGENDA?
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Manajemen waktu yang buruk seringkali menjadi penghambat produktivitas akademik. Aplikasi kami hadir menawarkan solusi:
+* 🚀 **Manajemen Terpusat:** Semua jadwal kegiatan (kuliah, seminar, rapat) tersimpan dalam satu database yang aman.
+* 🔍 **Pencarian Cepat (Live Search):** Temukan agenda spesifik dalam hitungan detik tanpa reload halaman.
+* 📊 **Dashboard Informatif:** Pantau statistik kegiatan (Pending, Selesai, Dibatalkan) melalui visualisasi yang jelas.
+* 📑 **Laporan Otomatis:** Cetak laporan kegiatan berdasarkan periode dan kategori ke dalam format PDF resmi dengan sekali klik.
+* 📱 **Akses Personal:** Mahasiswa memiliki dashboard pribadi untuk mengatur jadwal mereka sendiri.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 🎯 Fitur Unggulan
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* 👤 **Multi-Role User** (Administrator & Mahasiswa)
+* ⚡ **AJAX Live Search & Pagination** (Pencarian data super cepat tanpa refresh halaman)
+* 📊 **Dashboard Statistik** (Ringkasan total agenda, status kegiatan, dan user terdaftar)
+* 📝 **Manajemen Kegiatan** (CRUD Agenda dengan status: Pending, Selesai, Batal)
+* 📂 **Kategori Dinamis** (Pengelompokan agenda agar lebih terorganisir)
+* 📄 **Ekspor Laporan PDF** (Filter berdasarkan Tanggal, Kategori, Status dengan Kop Surat Resmi)
+* 🖼️ **Manajemen Profil** (Update Biodata, Ganti Password, & Upload Foto Profil)
+* 🔐 **Keamanan Terjamin** (Autentikasi aman, Validasi Input, & CSRF Protection)
+* 🎨 **UI/UX Modern** (Desain responsif berbasis Bootstrap 5 & SweetAlert2)
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 🛠️ Stack Teknologi
 
-### Premium Partners
+Aplikasi ini dibangun dengan teknologi yang handal dan modern:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+* **Backend:** PHP (Framework Laravel 10)
+* **Frontend:** Blade Templating, Bootstrap 5, FontAwesome, SweetAlert2
+* **Database:** MySQL
+* **Libraries:**
+    * `barryvdh/laravel-dompdf` (Cetak PDF)
+    * `Chart.js` (Visualisasi Data Dashboard)
+* **Tools Lain:** Composer, Git, VS Code
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 Memulai (Getting Started)
 
-## Code of Conduct
+Ingin menjalankan proyek ini di komputer lokal Anda? Ikuti langkah mudah berikut:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 1. Prasyarat
+* Pastikan PHP >= 8.2 terinstal
+* Composer terinstal
+* Web Server (XAMPP / Laragon)
+* Database MySQL
 
-## Security Vulnerabilities
+### 2. Instalasi
+```bash
+# 1. Clone repository ini
+git clone [https://github.com/adammiftah/si-agenda.git](https://github.com/adammiftah/si-agenda.git)
+cd si-agenda
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 2. Install dependensi PHP
+composer install
 
-## License
+# 3. Salin konfigurasi environment
+cp .env.example .env
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 4. Generate key aplikasi
+php artisan key:generate
+
+# 5. Konfigurasi Database (.env)
+#    Buka file .env dan sesuaikan:
+#    DB_DATABASE=db_agenda
+#    DB_USERNAME=root
+#    DB_PASSWORD=
+
+# 6. Buat Symlink Storage (PENTING untuk Foto Profil)
+php artisan storage:link
+
+# 7. Jalankan migrasi & data dummy
+php artisan migrate --seed
+
+# 8. Jalankan server lokal
+php artisan serve
+```
+
+---
+
+### 3. Akun Demo (Default Seeder)
+Gunakan akun berikut untuk masuk ke sistem:
+* Admin : admin@gmail.com (admin123)
+* Mahasiswa : user@gmail.com (user123)
+
+---
+
+### 🗺️ Roadmap Proyek
+* Integrasi Google Calendar
+* Notifikasi Pengingat via Email/WhatsApp
+* Fitur Absensi Kegiatan via QR Code
+* Dark Mode Support
+* Mobile App (Flutter/React Native)
+
+---
+
+### 🤝 Ingin Berkontribusi?
+Kontribusi Anda sangat kami harapkan untuk pengembangan sistem ini!
+## 1. Fork repository ini.
+## 2. Buat Branch baru (git checkout -b fitur/NamaFiturKeren).
+## 3. Commit perubahan Anda (git commit -m 'Menambahkan fitur login medsos').
+## 4. Push ke branch Anda (git push origin fitur/NamaFiturKeren).
+## 5. Buat Pull Request baru.
+
+---
+
+## 💌 Kontak & Dukungan
+Punya pertanyaan, saran, atau ingin berdiskusi?
+# 📧Email: [adammiftah196@gmail.com] 
+# 💻GitHub: @adam-miftah
