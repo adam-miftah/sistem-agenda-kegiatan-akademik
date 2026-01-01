@@ -109,10 +109,15 @@ Gunakan akun berikut untuk masuk ke sistem:
 
 ### 🤝 Ingin Berkontribusi?
 Kontribusi Anda sangat kami harapkan untuk pengembangan sistem ini!
+
 **1. Fork repository ini.**
+
 **2. Buat Branch baru (git checkout -b fitur/NamaFiturKeren).**
+
 **3. Commit perubahan Anda (git commit -m 'Menambahkan fitur login medsos').**
+
 **4. Push ke branch Anda (git push origin fitur/NamaFiturKeren).**
+
 **5. Buat Pull Request baru.**
 
 ---
